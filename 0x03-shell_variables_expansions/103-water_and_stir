@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "%s\n" $(echo "ibase=water;obase=bestchol;$WATER+$STIR" | tr 'waterstirbehloc' '012340123456789' | tr '[:lower:]' '[:upper:]' | dc)
