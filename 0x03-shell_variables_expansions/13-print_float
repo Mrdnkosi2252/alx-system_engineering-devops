@@ -1,2 +1,2 @@
-export NUM=3.14159265359
-./13-print_float
+#!/bin/bash
+printf "%.2f\n" "$NUM"
